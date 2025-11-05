@@ -39,5 +39,65 @@ Painel de Gestão: Endpoints (/admin) protegidos para que o GESTOR possa adminis
 
 - Maven
 
-##🔧 Instalação e Configuração
+## 🔧 Instalação e Configuração
 Para executar o projeto completo, você precisará configurar e executar o Back-end e o Front-end separadamente.
+
+1. Back-end (Este Repositório)
+Clone este repositório:
+
+git clone https://github.com/SeuUsuario/kartapi-backend.git
+cd kartapi-backend
+
+Configure o Banco de Dados:
+
+Crie um banco de dados PostgreSQL (ex: kart_club_db).
+
+Abra o arquivo src/main/resources/application.properties.
+
+Altere as seguintes linhas com suas credenciais:
+
+Properties
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/kart_club_db
+spring.datasource.username=seu_usuario_postgres
+spring.datasource.password=sua_senha_postgres
+Configure o JWT:
+
+No mesmo application.properties, defina sua chave secreta do JWT (necessária para iniciar a aplicação):
+
+Properties
+
+jwt.secret=SuaChaveSecretaMuitoLongaESeguraAqui123456
+Execute a API:
+
+Bash
+
+./mvnw spring-boot:run
+A API estará rodando em http://localhost:8080.
+
+2. Front-end (Repositório Separado)
+Clone o repositório do front-end:
+
+Bash
+
+git clone https://github.com/SeuUsuario/kart-frontend.git
+cd kart-frontend
+Instale as dependências:
+
+Bash
+
+npm install
+Conecte o Front ao Back:
+
+Crie um arquivo .env (ou similar) na raiz do projeto front-end.
+
+Adicione a URL da API do back-end:
+
+REACT_APP_API_URL=http://localhost:8080
+Nota: O Back-end já está configurado (CorsConfig.java) para aceitar requisições do front-end.
+
+Execute o Front-end:
+
+Bash
+
+npm start
