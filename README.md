@@ -44,9 +44,8 @@ Para executar o projeto completo, você precisará configurar e executar o Back-
 
 **1. Back-end (Este Repositório)**
 Clone este repositório:
-
-git clone [https://github.com/SeuUsuario/kartapi-backend.git](https://github.com/SthefanySouza486/SistemaKart-Backend.git)
-cd kartapi-backend
+``` git clone [https://github.com/SeuUsuario/kartapi-backend.git](https://github.com/SthefanySouza486/SistemaKart-Backend.git)
+cd kartapi-backend```
 
 
 **Configure o Banco de Dados:**
@@ -57,24 +56,20 @@ Abra o arquivo src/main/resources/application.properties.
 
 Altere as seguintes linhas com suas credenciais:
 
-Properties
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/kart_club_db
-
-spring.datasource.username=seu_usuario_postgres
-
-spring.datasource.password=sua_senha_postgres
+<img width="635" height="90" alt="image" src="https://github.com/user-attachments/assets/21036b9e-1d7f-47d1-b5a5-fe9302d703c1" />
 
 
 Configure o JWT:
 
 No mesmo application.properties, defina sua chave secreta do JWT (necessária para iniciar a aplicação):
 
-jwt.secret=SuaChaveSecretaMuitoLongaESeguraAqui123456
+<img width="635" height="45" alt="image" src="https://github.com/user-attachments/assets/b71d56cb-96ef-41af-bd0c-52466c425d71" />
+
 
 Execute a API:
 
-./mvnw spring-boot:run
+<img width="660" height="43" alt="image" src="https://github.com/user-attachments/assets/8be4e5cf-f283-4bc2-8006-6a3446fb0bdd" />
+
 
 A API estará rodando em http://localhost:8080.
 
