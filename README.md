@@ -127,10 +127,46 @@ INSERT INTO gestor (nome, email, senha, tipo_usuario)
 VALUES ('Admin Gestor', 'gestor@kartclub.com', '$2a$10$7b.bBy8M..g.Jg0.C.p65u8yv/2c.CyEcLz.4m.e.j.d9.T0c.7rW', 'GESTOR');
 ```
 
-**2.** Login: Acesse a aplicação e faça login com as credenciais do gestor (gestor@kartclub.com / senha123).
+**2.** Login: 
+
+<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/fa6b767e-2791-4ea1-acc4-b52a6bc5b52a" />
+
+Acesse a aplicação e faça login com as credenciais do gestor (gestor@kartclub.com / senha123).
 
 **3.** Vizualizar todos os agendamentos: 
-<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/a9287ee5-768c-4805-bdf1-7e78ba74164b" />
 
-Nesta aba pendentes, consegue-se visualizar todos os agendamentos que tem, seja qual for a situação do agendamento. 
+<img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/17ce0d32-3b53-4051-9acf-a28b4f71b641" />
+
+Nesta aba, consegue-se visualizar todos os agendamentos que tem, seja qual for a situação do agendamento. 
+
+
+**4.** Vizualizar os agendamentos pendentes: 
+
+<img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/c13523fc-ddaf-42da-a520-81c459ffa10d" />
+
+Nesta aba de pendentes, consegue-se visualizar todos os agendamentos, que ainda faltam concluir ou cancelar. 
+
+
+**5.** Visualizar os agendamentos confirmados: 
+
+<img width="940" height="414" alt="image" src="https://github.com/user-attachments/assets/cabf7bb7-bb65-4982-9101-aecd851547f5" />
+
+Nesta aba de confirmados, consegue-se visualizar os arquivos que estão confirmados e pode-se conclui-los.
+
+
+**6.** Visualizar os agendamentos concluidos: 
+
+<img width="940" height="342" alt="image" src="https://github.com/user-attachments/assets/ef71ece7-b6a3-45f3-8372-307255aad647" />
+
+Nesta aba de concluidos, o gestor consegue visualizar todos os agendamentos que foram concluidos. 
+
+
+**7.** Visualizar os agendamentos cancelados: 
+
+<img width="940" height="427" alt="image" src="https://github.com/user-attachments/assets/f97e3d71-611f-4c5f-af0b-c41c23077ca2" />
+
+Nesta aba de cancelados, consegue-se visualizar todos os agendamentos que foram cancelados. 
+
+
+
 
