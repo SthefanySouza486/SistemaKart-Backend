@@ -46,7 +46,7 @@ Para executar o projeto completo, você precisará configurar e executar o Back-
 Clone este repositório:
 
 ```Bash
-git clone [https://github.com/SeuUsuario/kartapi-backend.git](https://github.com/SthefanySouza486/SistemaKart-Backend.git)
+git clone https://github.com/SthefanySouza486/SistemaKart-Backend.git
 cd kartapi-backend
 ```
 
@@ -59,8 +59,11 @@ Abra o arquivo src/main/resources/application.properties.
 
 Altere as seguintes linhas com suas credenciais:
 
-<img width="635" height="90" alt="image" src="https://github.com/user-attachments/assets/21036b9e-1d7f-47d1-b5a5-fe9302d703c1" />
-
+```Properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/kart_club_db
+spring.datasource.username=seu_usuario_postgres
+spring.datasource.password=sua_senha_postgres
+```
 
 Configure o JWT:
 
