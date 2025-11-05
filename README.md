@@ -60,8 +60,12 @@ Altere as seguintes linhas com suas credenciais:
 Properties
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/kart_club_db
+
 spring.datasource.username=seu_usuario_postgres
+
 spring.datasource.password=sua_senha_postgres
+
+
 Configure o JWT:
 
 No mesmo application.properties, defina sua chave secreta do JWT (necessária para iniciar a aplicação):
@@ -78,6 +82,7 @@ A API estará rodando em http://localhost:8080.
 Clone o repositório do front-end:
 
 git clone [https://github.com/SeuUsuario/kart-frontend.git](https://github.com/SthefanySouza486/SistemaKart-Frontend.git)
+
 cd kart-frontend
 
 Instale as dependências:
