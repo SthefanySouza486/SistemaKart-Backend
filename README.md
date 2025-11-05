@@ -111,3 +111,26 @@ Execute o Front-end:
 npm start
 ```
 **Nota: Após executar o front-end, aparecera um link, aperte Ctrl e clique nesse link, assim abrirá o sistema**
+
+## 📖 Manual do Usuário
+Com ambos os servidores rodando, o sistema está pronto para uso.
+
+**Fluxo de Gestão (Admin)**
+**1.** Criar o Primeiro Gestor: (Passo de configuração única)
+
+O sistema precisa de um GESTOR para começar. Execute o SQL abaixo diretamente no seu banco de dados para criar um.
+
+(A senha é senha123, já criptografada com BCrypt):
+
+```SQL
+INSERT INTO gestor (nome, email, senha, tipo_usuario)
+VALUES ('Admin Gestor', 'gestor@kartclub.com', '$2a$10$7b.bBy8M..g.Jg0.C.p65u8yv/2c.CyEcLz.4m.e.j.d9.T0c.7rW', 'GESTOR');
+```
+
+**2.** Login: Acesse a aplicação e faça login com as credenciais do gestor (gestor@kartclub.com / senha123).
+
+**3.** Vizualizar todos os agendamentos: 
+<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/a9287ee5-768c-4805-bdf1-7e78ba74164b" />
+
+Nesta aba pendentes, consegue-se visualizar todos os agendamentos que tem, seja qual for a situação do agendamento. 
+
