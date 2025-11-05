@@ -1,12 +1,12 @@
-#🏎️ Kart Club - Sistema de Agendamento (kartapi)
+# 🏎️ Kart Club - Sistema de Agendamento (kartapi)
 Este repositório contém o Back-end (API) do Sistema de Agendamento do Kart Club. A API é responsável por toda a lógica de negócio, gerenciamento de usuários, regras de agendamento e processamento de pagamentos.
 
 O projeto completo é desacoplado, e o Front-end (que consome esta API) pode ser encontrado no seguinte link https://github.com/SthefanySouza486/SistemaKart-Frontend.git.
 
-##🎯 O Problema
+## 🎯 O Problema
 O processo de agendamento do clube era totalmente manual, lento e caro, sendo centralizado em um funcionário que recebia pedidos via WhatsApp. Isso gerava longas filas de espera, erros humanos na verificação de horários e prejuízo com reservas não pagas (no-shows).
 
-##✨ A Solução
+## ✨ A Solução
 Esta API (kartapi) resolve o problema criando um sistema de autoatendimento robusto e seguro. Ela automatiza 100% do processo, permitindo que clientes agendem 24/7 sem intervenção humana.
 
 Principais Funcionalidades
@@ -26,7 +26,7 @@ Fluxo de Pagamento: Garante a reserva da vaga somente após o pagamento, alteran
 
 Painel de Gestão: Endpoints (/admin) protegidos para que o GESTOR possa administrar a frota de karts (ex: colocar em MANUTENCAO).
 
-🛠️ Tecnologias Utilizadas (Stack)
+## 🛠️ Tecnologias Utilizadas (Stack)
 - Java 17+
 
 - Spring Boot
