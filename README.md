@@ -47,7 +47,8 @@ Clone este repositório:
 
 ```Bash
 git clone [https://github.com/SeuUsuario/kartapi-backend.git](https://github.com/SthefanySouza486/SistemaKart-Backend.git)
-cd kartapi-backend```
+cd kartapi-backend
+```
 
 
 **Configure o Banco de Dados:**
