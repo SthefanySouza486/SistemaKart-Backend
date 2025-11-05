@@ -44,7 +44,9 @@ Para executar o projeto completo, você precisará configurar e executar o Back-
 
 **1. Back-end (Este Repositório)**
 Clone este repositório:
-``` git clone [https://github.com/SeuUsuario/kartapi-backend.git](https://github.com/SthefanySouza486/SistemaKart-Backend.git)
+
+```Bash
+git clone [https://github.com/SeuUsuario/kartapi-backend.git](https://github.com/SthefanySouza486/SistemaKart-Backend.git)
 cd kartapi-backend```
 
 
