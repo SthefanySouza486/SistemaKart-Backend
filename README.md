@@ -69,38 +69,45 @@ Configure o JWT:
 
 No mesmo application.properties, defina sua chave secreta do JWT (necessária para iniciar a aplicação):
 
-<img width="635" height="45" alt="image" src="https://github.com/user-attachments/assets/b71d56cb-96ef-41af-bd0c-52466c425d71" />
-
+```Properties
+jwt.secret=SuaChaveSecretaMuitoLongaESeguraAqui123456
+```
 
 Execute a API:
 
-<img width="660" height="43" alt="image" src="https://github.com/user-attachments/assets/8be4e5cf-f283-4bc2-8006-6a3446fb0bdd" />
-
+```Bash
+./mvnw spring-boot:run
+```
 
 A API estará rodando em http://localhost:8080.
 
 **2. Front-end (Repositório Separado)**
 Clone o repositório do front-end:
 
-git clone [https://github.com/SeuUsuario/kart-frontend.git](https://github.com/SthefanySouza486/SistemaKart-Frontend.git)
-
+```Bash
+git clone https://github.com/SeuUsuario/kart-frontend.git
 cd kart-frontend
+```
 
 Instale as dependências:
 
+```Bash
 npm install
+```
 
 Conecte o Front ao Back:
 
 Crie um arquivo .env (ou similar) na raiz do projeto front-end.
 
 Adicione a URL da API do back-end:
-
+```
 REACT_APP_API_URL=http://localhost:8080
+```
 **Nota: O Back-end já está configurado (CorsConfig.java) para aceitar requisições do front-end.**
 
 Execute o Front-end:
 
+```Bash 
 npm start
-
+```
 **Nota: Após executar o front-end, aparecera um link, aperte Ctrl e clique nesse link, assim abrirá o sistema**
